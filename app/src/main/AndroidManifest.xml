@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- These optional WorkManager capabilities are not used by local reminders. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" tools:node="remove" />
+    <application android:name=".OutsideApp" android:allowBackup="false" android:fullBackupContent="false" android:dataExtractionRules="@xml/data_extraction_rules" android:label="Outside Days" android:icon="@drawable/ic_leaf" android:supportsRtl="true" android:theme="@style/Theme.OutsideDays">
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+        <service android:name="androidx.work.impl.foreground.SystemForegroundService" tools:node="remove" />
+        <receiver android:name=".data.TimerActionReceiver" android:exported="false" />
+    </application>
+</manifest>

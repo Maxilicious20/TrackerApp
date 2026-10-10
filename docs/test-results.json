@@ -1,0 +1,55 @@
+{
+  "unit_suites": [
+    {
+      "name": "com.outsidedays.GamesTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.outsidedays.ReportsTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.outsidedays.PersistenceTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.outsidedays.TimerTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "com.outsidedays.BackupTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "device_suites": [
+    {
+      "name": "com.outsidedays.AppSmokeTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "lint": [
+    {
+      "severity": "Warning",
+      "id": "KaptUsageInsteadOfKsp",
+      "message": "This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp"
+    }
+  ]
+}

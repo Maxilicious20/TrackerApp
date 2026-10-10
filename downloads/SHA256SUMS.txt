@@ -1,0 +1,2 @@
+d27dcb0888ed18f6478bbda122f896a6c6b75b64dbfe7be7e6282e65a8a79587  OutsideDays-debug.apk
+91b2e71865fb2874ac29de054acaf4fde94f7b7f1a930572bf52a469ee4b7890  OutsideDays-source.zip
